@@ -1,0 +1,36 @@
+body {
+    width: 200px;
+}
+
+#cart {
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    flex: 1;
+}
+
+button {
+    margin-right: 5px;
+}
+
+.like {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.like.liked {
+    color: red;
+}
+
+#total {
+    font-weight: bold;
+}
